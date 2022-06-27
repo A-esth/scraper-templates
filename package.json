@@ -1,0 +1,26 @@
+{
+  "name": "scraper-templates",
+  "version": "1.0.0",
+  "description": "A repository of boilerplate code",
+  "main": "",
+  "scripts": {
+    "puppeteer-basic": "node ./puppeteer/basic.js",
+    "test": "mocha --timeout=30000 ./puppeteer/test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/A-esth/scraper-templates.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/A-esth/scraper-templates/issues"
+  },
+  "homepage": "https://github.com/A-esth/scraper-templates#readme",
+  "dependencies": {
+    "chai": "^4.3.6",
+    "mocha": "^10.0.0",
+    "prettier": "^2.6.2",
+    "puppeteer": "^14.1.1"
+  }
+}
